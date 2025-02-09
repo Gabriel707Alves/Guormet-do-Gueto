@@ -183,7 +183,43 @@ main hr{
   justify-content: center;
   gap: 20px
 }
+/* fim hamburguer */
 
+/* inicio bebidas */
+
+.bebidas{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  gap: 20px
+}
+/* fim bebidas */
+
+/* inicio sobremesas */
+.sobremesas{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  gap: 20px
+}
+/* fim sobremesas */
+
+/* inicio rodapé */
+
+footer{
+  background-color: #1C1C1C;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p a{
+  color: white;
+  text-decoration: none;
+}
 
 
 
